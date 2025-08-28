@@ -11,32 +11,11 @@ const Footer = () => {
             {/* Company Info */}
             <div className="footer-section">
               <div className="footer-logo">
-                <div className="logo-icon">
-                  <svg
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20 5L35 15V25L20 35L5 25V15L20 5Z"
-                      fill="#f6ad55"
-                    />
-                    <path
-                      d="M20 10L30 17.5V25L20 32.5L10 25V17.5L20 10Z"
-                      fill="#ed8936"
-                    />
-                    <text
-                      x="20"
-                      y="24"
-                      textAnchor="middle"
-                      fill="#1a365d"
-                      fontSize="12"
-                      fontWeight="bold"
-                    >
-                      K
-                    </text>
-                  </svg>
-                </div>
+                <img
+                  className="logo-icon"
+                  src="/images/keystone_logo.png"
+                  alt="Keystone Advisory Group Logo"
+                />
                 <h3>Keystone Advisory Group</h3>
               </div>
               <p className="footer-description">

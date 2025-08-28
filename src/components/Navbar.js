@@ -39,7 +39,6 @@ const Navbar = () => {
               alt="Keystone Advisory Group Logo"
             />
           </div>
-          <span className="logo-text">Keystone Advisory Group</span>
         </Link>
 
         <div className={`navbar-menu ${isOpen ? "active" : ""}`}>
