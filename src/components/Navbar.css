@@ -39,6 +39,10 @@
   margin-right: 12px;
 }
 
+.keystone-nav-logo {
+  width: 100%;
+}
+
 .logo-text {
   color: var(--white);
 }
